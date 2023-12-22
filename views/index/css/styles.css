@@ -1,0 +1,48 @@
+
+#body{
+	float: left;
+	width: 100%;
+	position: absolute;
+	margin-top: 40px; margin-left: -8px;
+}
+
+.info{float: left; width: 35%;margin-left: 10px; margin-top: 50px; margin-bottom: 50px;}
+.info h1{float: left; margin-top: 0; margin-bottom: 10px; color: #FFBC05;}
+.info p{float: left; text-align: justify; margin-top: 0; margin-bottom: 0; color: #8BC90E;}
+.info a{float: left; text-decoration: none; color: #FFBC05;}
+.info a:hover{color: #FF8800;}
+
+.register{float: right; margin-top: 30px; margin-right: 20px; width: 40%; color: #fff;}
+.tbl-register{float: left; width: 100%;}
+.tbl-register tr{float: left; width: 100%; margin-bottom: 10px;}
+.tbl-register tr th{width: 100%;}
+.tbl-register tr th h3{width: 100%; margin-left: 60px; margin-top: 0; margin-bottom: 0; color: #FFBC05}
+.tbl-register tr td{width: 100%;}
+.tbl-register tr td input{float: right; width: 300px; height: 25px;}
+.tbl-register tr td select{float: right; width: 304px; height: 30px;}
+.tbl-register tr td input[type='submit']{
+	float: right; height: 40px; color: #FF8800; 
+	width: 300px; font-size: 16px; font-weight: 500; font-family: 'ubuntu';
+	border: none; background: none; border-bottom: 5px solid #FF8800; cursor: pointer; transition: 3s background-color;
+}.tbl-register tr td input[type='submit']:hover{background-color: #E6FF05; color: #755800; font-weight: 700;}
+
+.products{float: left; margin-left: 10px; width: 45%; margin-top: 50px; }
+.products h1{float: left; margin-top: 0; margin-bottom: 10px; color: #FFBC05;}
+.product{float: left; width: 100%; min-height: 80px; max-height: 500px; overflow: auto; color: #F2F2F2;}
+.prod-info{float: left; margin-left: 10px; margin-bottom: 10px; width: 90%; border-bottom: 1px solid #fff;}
+.prod-info h4{float: left; margin: 0; width: 100%; }
+.prod-info p{float: left; margin: 0; margin-left: 15px;}
+.prod-info small{float: left; margin: 0; width: 100%; color: #FFBC05;}
+
+/*upper body complete*/
+
+.foot{
+	float: left;
+	width: 100%;
+	margin-top: 55px;
+	color: #FFBC05;
+}
+.foot p{float: left; text-align: center; width: 100%; margin: 0; margin-top: 5px; font-size: 12px;}
+/*footer complete*/
+
+/*body is complete*/

@@ -1,0 +1,202 @@
+div, h3, form, input, ul, li, a{display: block;}
+header{
+	float: left;
+	background-image: url(../img/bg.jpg);
+	/*background-color: #999;*/
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5); 
+	margin-bottom: 10px;
+}
+.logo{
+	float: left;
+	margin-left: 35em;
+	margin-top: 5em;
+}
+.logo img{
+	float: left;
+	max-width: 350px; 
+}
+.quick-info{
+	float: left;
+	color: #ccc; font-size: 25px;
+	border: none;
+	margin-left: 7em;
+	margin-top: 1em;
+	font-family: 'ubuntu';
+}
+.contacts{
+	float: left;
+	overflow: hidden;
+	margin-left: 160px;
+}
+.contacts ul{
+	float: left;
+	list-style: none;
+	overflow: hidden;
+}
+.contacts ul li{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.contacts ul li a{
+	float: left;
+	padding-left: 5em; padding-right: 5em;
+	padding-top: 2em; padding-bottom: 2em;
+}
+.contacts ul li a img{
+	float: left;
+	width: 100px;
+}
+
+.col1{
+    float: left;
+    padding-top: 40px;
+}.col1 img{
+	float: left;
+	padding-left: 100px;
+}
+
+.col2{
+	float: left;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+footer{
+	float: left;
+	/*background-color: #999;*/
+	background-image: url(../img/bg.jpg);
+	margin-top: 50px; width: 100%; padding-bottom: 20px;
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5); 
+}
+.footer-info{
+	margin-top: 10px;
+}
+.footer-info h2{
+	color: #ddd; font-family: 'ubuntu-mono';
+}
+
+.col3{
+    overflow: auto;
+    max-height: 600px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5); 
+}
+
+.col4{
+    
+}
+.products{
+	float: left; width: 100%; margin-top: 10px; padding-left: 10px; padding-right: 10px;text-align: justify;
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5); margin-bottom: 15px; border-radius: 5px;
+	transition: 2s background-color;
+}
+.products:hover{
+	background-color: #4A4946;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+}
+.products h2{
+	float: left; width: 100%; margin: 0; margin-top: 10px; font-size: 18px; color: #eee;
+}
+.products small{
+	float: left; width: 50%; margin-left: 15px; margin-top: 0;margin-bottom: 15px; font-style: italic; color: #BABABA;
+}
+.products p{
+	float: left; width: 100%; color: #999;
+}
+#myTab{
+	float: left;
+	width: 100%;
+	
+}
+#myTab li{
+	float: left;
+	width: 50%;
+}
+#myTab li a{
+	font-weight: 700; color: #D49400;
+}
+#myTab li a:hover{
+	background-color: #fff;
+}
+#myTab li a img{
+	float: left;
+	width: 30px;
+	margin-right: 20px;
+	margin-top: -5px;
+}
+
+#regForm{
+	float: left;
+	width: 90%;
+	margin-left: 20px; margin-top: 10px;
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+.txtForm{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.txtForm label{
+	float: left;
+	width: 25%;
+	color: #fff;
+	/*-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);*/
+	padding-top: 15px;
+	max-height: 50px;
+	min-height: 50px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+.txtForm input{
+	float: left;
+	width: 70%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-top: 0px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+.txtForm select{
+		float: left;
+	width: 70%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-top: 0px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+.btn{
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 10px;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+   /* display: none;*/
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*background: rgba(255,0,0,0.8);*/ 
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5); 
+}

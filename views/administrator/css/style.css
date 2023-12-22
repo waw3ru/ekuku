@@ -1,0 +1,52 @@
+
+#body{
+	float: left;
+	width: 100%;
+	position: absolute;
+	margin-top: 40px; margin-left: -8px;
+}
+
+.not-approved{float: left; width: 80%; margin-left: 65px; margin-top: 20px;}
+.not-approved h1{float: left; margin-top: 0; margin-bottom: 10px; color: #FFBC05; margin-left: 140px;}
+.not-approved table{float: left; width: 100%;}
+.not-approved table tr th{background-color: #AD4E00; font-weight: 700;}
+.not-approved table tr td{text-align: center;}
+.not-approved table tr td a{color: #FA0092;}
+.not-approved table tr td a:hover{color: #75AB00;}
+
+
+.approved{float: left; width: 80%; margin-left: 65px; margin-top: 100px;}
+.approved h1{float: left; margin-top: 0; margin-bottom: 10px; color: #FFBC05; margin-left: 140px;}
+.approved table{float: left; width: 100%;}
+.approved table tr th{background-color: #75AB00; font-weight: 700;}
+.approved table tr td{text-align: center;}
+.approved table tr td a{color: #75AB00;}
+.approved table tr td a:hover{color: #FA0092;}
+
+
+.register{float: right; margin-top: 70px; margin-right: 250px; width: 60%; color: #fff;}
+.tbl-register{float: left; width: 100%;}
+.tbl-register tr{float: left; width: 100%; margin-bottom: 10px;}
+.tbl-register tr th{width: 100%;}
+.tbl-register tr th h3{width: 100%; margin-left: 60px; margin-top: 0; margin-bottom: 0; color: #FFBC05}
+.tbl-register tr td{width: 100%;}
+.tbl-register tr td input{float: right; width: 300px; height: 25px;}
+.tbl-register tr td select{float: right; width: 304px; height: 30px;}
+.tbl-register tr td input[type='submit']{
+	float: right; height: 40px; color: #FF8800; 
+	width: 300px; font-size: 16px; font-weight: 500; font-family: 'ubuntu';
+	border: none; background: none; border-bottom: 5px solid #FF8800; cursor: pointer; transition: 3s background-color;
+}.tbl-register tr td input[type='submit']:hover{background-color: #E6FF05; color: #755800; font-weight: 700;}
+
+/*upper body complete*/
+
+.foot{
+	float: left;
+	width: 100%;
+	margin-top: 55px;
+	color: #FFBC05;
+}
+.foot p{float: left; text-align: center; width: 100%; margin: 0; margin-top: 5px; font-size: 12px;}
+/*footer complete*/
+
+/*body is complete*/
